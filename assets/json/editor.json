@@ -1,0 +1,234 @@
+{
+    "elements": {
+        "Basic": [
+            {"name": "rectangle", "icon": "rectangle", "type": "icon"},
+            {"name": "rectangle", "icon": "ellipse"},
+            {"name": "rectangle", "icon": "circle"},
+            {"name": "rectangle", "icon": "square"},
+            {"name": "rectangle", "icon": "polygon"},
+            {"name": "rectangle", "icon": "square"},
+            {"name": "rectangle", "icon": "polygon"}
+        ],
+        "Objects": [            
+            {"name": "rectangle", "icon": "rectangle", "type": "icon"},
+            {"name": "rectangle", "icon": "ellipse"},
+            {"name": "rectangle", "icon": "circle"},
+            {"name": "rectangle", "icon": "square"},
+            {"name": "rectangle", "icon": "polygon"},
+            {"name": "rectangle", "icon": "square"},
+            {"name": "rectangle", "icon": "polygon"}
+        ],
+        "Symbols": [            
+            {"type": "icon"}
+        ],
+        "Arrows": [            
+            {"type": "icon"}
+        ],
+        "FlowChart": [            
+            {"type": "icon"}
+        ],
+        "Animals": [            
+            {"type": "icon"}
+        ],
+        "Cards & Chess": [            
+            {"type": "icon"}
+        ],
+        "Dialog ballons": [            
+            {"type": "icon"}
+        ],
+        "Electronics": [            
+            {"type": "icon"}
+        ],
+        "Mathematical": [            
+            {"type": "icon"}
+        ],
+        "Music": [            
+            {"type": "icon"}
+        ],
+        "Miscellaneous": [            
+            {"type": "icon"}
+        ]
+    },
+    "left": {
+        "Size & Rotation": {            
+            "1": [
+                { "text": "Size", "heading": true}
+            ],
+            "2": [{ "text": "Width", "range": true }, { "text": "Height", "range": true }],
+            "3": [
+                { "text": "Position", "heading": true}
+            ],
+            "4": [{ "text": "X-Position", "range": true }, { "text": "Y-Position", "range": true }],
+            "5": [
+                { "text": "Rotation", "heading": true}
+            ],
+            "6": [
+                { "text": "Angle", "input": true, "width": 75, "icon": "icon" },
+                { "button": true, "code": "bold", "title": "90deg"},
+                { "button": true, "code": "bold", "title": "Flip-X"},
+                { "button": true, "code": "bold", "title": "Flip-Y"}
+            ]
+        },
+        "Shape": {
+            "1": [
+                { "text": "Color", "heading": true}
+            ],
+            "2": [
+                { "text": "Fill", "input": true, "width": 100, "icon": "icon" },
+                { "text": "Stroke", "input": true, "width": 100 }
+            ],
+            "4": [
+                { "text": "Stroke & Corners", "heading": true}
+            ],
+            "5": [
+                { "text": "Stroke-Width", "range": true, "dropdown": false },
+                { "text": "Radius", "range": true }
+            ],
+            "6": [
+                { "text": "Visibility", "heading": true}
+            ],
+            "7": [
+                { "text": "Opacity", "range": true },
+                { "text": "Blur", "range": true }
+            ]
+        },
+        "Alignment": {
+            "1": [
+                { "text": "", "heading": true}
+            ],
+            "r1": [                        
+                { "button": true, "code": "align-left", "title": "Left"},
+                { "button": true, "code": "align-center", "title": "Center"},
+                { "button": true, "code": "align-right", "title": "Right"},
+                { "button": true, "code": "align-top", "title": "Top"},
+                { "button": true, "code": "align-middle", "title": "Middle"},
+                { "button": true, "code": "align-bottom", "title": "Bottom"}
+            ]
+        },
+        "Text" : {
+            "1": [
+                { "text": "Formatting", "heading": true}
+            ],
+            "2": [
+                { "button": true, "code": "bold"},
+                { "button": true, "code": "italic"},
+                { "button": true, "code": "strikethrough"},
+                { "button": true, "code": "underline"},
+                { "button": true, "code": "capitalize"}
+            ],
+            "3": [
+                { "text": "Color", "heading": true}
+            ],
+            "4": [
+                { "text": "TEXT", "input": true, "width": 100, "icon": "text-color" },
+                { "text": "HIGHLIGHT", "input": true, "width": 100, "icon": "highlight" }                        
+            ],
+            "5": [
+                { "text": "Font", "heading": true}
+            ],
+            "6": [
+                { "dropdown": true, "w": 75, "selected": "10", "text": "Size", "icon": "capitalize", "list": [
+                    { "title": 4, "style": { "size": 4} },
+                    { "title": 6, "style": { "size": 6} },
+                    { "title": 8, "style": { "size": 8} },
+                    { "title": 9, "style": { "size": 9} },
+                    { "title": 10, "style": { "size": 10} },
+                    { "title": 11, "style": { "size": 11} },
+                    { "title": 13, "style": { "size": 13} },
+                    { "title": 15, "style": { "size": 15} },
+                    { "title": 16, "style": { "size": 16} },
+                    { "title": 20, "style": { "size": 20} },
+                    { "title": 22, "style": { "size": 22} },
+                    { "title": 25, "style": { "size": 25} },
+                    { "title": 30, "style": { "size": 30} }
+                ]},
+                { "dropdown": true, "w": 225, "selected": "Open Sans Condensed", "text": "Font-Family", "icon": "capitalize", "list": [
+                    { "title": "Roboto Mono", "style": { "fontFamily": "'Roboto Mono', monospace"}},
+                    { "title": "Open Sans Condensed", "style": { "fontFamily": "'Open Sans Condensed', sans-serif"}},
+                    { "title": "Tenali Ramakrishna", "style": { "fontFamily": "'Tenali Ramakrishna', sans-serif"}},
+                    { "title": "Source Code Pro", "style": { "fontFamily": "Source Code Pro, monospace"}},
+                    { "title": "Piedra", "style": { "fontFamily": "'Piedra', cursive"}},
+                    { "title": "'Anton', sans-serif", "style": { "fontFamily": "'Anton', sans-serif"}},
+                    { "title": "'Dancing Script', cursive", "style": { "fontFamily": "'Dancing Script', cursive"}},
+                    { "title": "'Lobster', cursive", "style": { "fontFamily": "'Lobster', cursive"}},
+                    { "title": "'Indie Flower', cursive", "style": { "fontFamily": "'Indie Flower', cursive"}},
+                    { "title": "'Pacifico', cursive", "style": { "fontFamily": "'Pacifico', cursive"}},
+                    { "title": "'Bangers', cursive", "style": { "fontFamily": "'Bangers', cursive"}},
+                    { "title": "'Abril Fatface', cursive", "style": { "fontFamily": "'Abril Fatface', cursive"}},
+                    { "title": "'Architects Daughter', cursive", "style": { "fontFamily": "'Architects Daughter', cursive"}},
+                    
+                    { "title": "'Permanent Marker', cursive", "style": { "fontFamily": "'Permanent Marker', cursive"}},
+                    { "title": "'Fredoka One', cursive", "style": { "fontFamily": "'Fredoka One', cursive"}},
+                    { "title": "'Caveat', cursive", "style": { "fontFamily": "'Caveat', cursive"}},
+                    { "title": "'Satisfy', cursive", "style": { "fontFamily": "'Satisfy', cursive"}},
+                    { "title": "'Alfa Slab One', cursive", "style": { "fontFamily": "'Alfa Slab One', cursive"}},
+                    { "title": "'Kalam', cursive", "style": { "fontFamily": "'Kalam', cursive"}},
+                    { "title": "'Kalam New', cursive", "style": { "fontFamily": "'Kalam', cursive"}}
+                ]}
+            ],
+            "7": [
+                { "text": "Text Fitting", "heading": true}
+            ],
+            "r3": [
+                { "text": "LETTER-SPACING", "range": true},
+                { "text": "LINE-HEIGHT", "range": true }
+            ]
+        }
+    },
+    "tools": [
+        { "class": "select"},
+        { "class": "pencil"},
+        { "class": "draw-line", "more": true, "data": ["draw-line", "polygon", "polyline"]},
+        { "class": "rectangle", "more": true, "data": ["rectangle", "square", "ellipse", "circle"] },
+        { "class": "path"},
+        { "class": "text"},
+        { "class": "zoom-in"}
+    ],
+    "add": [
+        { "icon": "image","value": "image", "paths": ["path1", "path2", "path3", "path4", "path5", "path6", "path7", "path8"]}
+    ],
+    "right": [
+        { "icon": "layers", "paths": 6 }
+    ],
+    "selector": {
+        "g": [
+            { "icon": "copy", "title": "Duplicate" },
+            { "icon": "delete", "title": "Delete" },
+            { "icon": "code-2", "title": "Convert to SVG" }
+        ]
+    },
+    "more_vert": {
+        "canvas": [
+            { "icon": "copy", "title": "Duplicate" },
+            { "icon": "delete", "title": "Delete/Clear" },
+            { "icon": "download", "title": "Download" },
+            { "icon": "download", "title": "Download In SVG" },
+            { "icon": "code", "title": "SVG Code" },
+            { "break": true},
+            { "icon": "grid" , "title": "Show/Hide Grid"},
+            { "icon": "background", "title": "Canvas Background" },
+            { "icon": "wireframe", "title": "Wireframe View" },
+            { "break": true},
+            { "icon": "full-screen", "title": "Enter Full Screen" }
+        ],
+        "selector": {
+            "template": [
+                { "icon": "code", "title": "Copy SVG Code" }
+            ],
+            "basic": [
+                { "icon": "copy", "title": "Duplicate" },
+                { "icon": "delete", "title": "Delete" }
+            ],
+            "image": [
+                { "icon": "copy", "title": "Duplicate" },
+                { "icon": "delete", "title": "Delete" },
+                { "icon": "code-2", "title": "Convert to SVG" }                
+            ]
+        }
+    },
+    "people": [
+        { "name": "kamran", "location": "charsadda"},
+        { "name": "Arslan", "location": "Chakwal"},
+        { "name": "Hamza", "location": "Pindi"}
+    ]
+}

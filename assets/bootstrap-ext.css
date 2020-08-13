@@ -1,0 +1,86 @@
+body {
+    background-color: #fcfcfc;    
+    /* font-family: Roboto, "Noto Naskh Arabic UI", Arial, sans-serif !important; */
+    /* font-family: "Open Sans", sans-serif !important; */
+}
+.ls-1 {
+    letter-spacing: 0.125rem;
+}
+.ls-2 {
+    letter-spacing: 0.25rem;
+}
+.btn-hov:hover {
+    transition: 0.3s;
+    background: rgba(0, 0, 0, 0.055) !important;
+    /* cursor: pointer !important; */
+}
+.btn-hov:active {
+    transition: 0.1s;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.box-shadow {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.bd-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.bd-top {
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+.bd-left {
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+.bd-right {
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+.bd-none {
+    border: 1px solid transparent !important;
+}
+.bg-none {
+    background-color: transparent !important;
+}
+.text-sm {
+    font-size: 0.85rem;
+}
+.text-md {
+    font-size: 1.25rem;
+}
+.bd-round {
+    border-radius: 22px 22px 22px 22px;
+}
+.bd-radius-0 {
+    border-radius: 0px !important;
+}
+.bd-radius-5 {
+    border-radius: 5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.055); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.125); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.225); 
+  }
