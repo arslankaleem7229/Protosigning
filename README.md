@@ -1,6 +1,6 @@
-# Trainglo
+# ProtoSigning
 
-> Trainglo 2.0 Dark Version
+> ProtoSigning 2.0 Dark Version
 
 ## Build Setup
 
@@ -18,5 +18,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
