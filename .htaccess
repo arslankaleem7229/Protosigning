@@ -1,4 +1,0 @@
-RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^index.php(.*) http://silicate.pk:51625/$1 [P,L]
-RewriteRule (.*) http://silicate.pk:51625/$1 [P,L]
