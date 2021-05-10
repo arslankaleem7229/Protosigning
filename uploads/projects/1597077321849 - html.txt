@@ -1,0 +1,26 @@
+<button type="button" class="text-md draggable box-shadow bd-round bd-none btn btn-success pl-4 pr-4 bd-blue" style="width: 469.033px; height: 227px; transform: translate(169.44px, 84.5432px);" data-x="169.4400683569139" data-y="84.54322985339394">Edit This Text</button><button class="btn draggable pl-4 pr-4" style="width: 100px; height: 117.5px; transform: translate(-481px, -65px);" data-x="-481" data-y="-65"><span type="loader" class="spinner-border spinner-border-lg"></span></button><p type="paragraph" class="border draggable p-2 text-center" style="width: 735px; height: 98px; transform: translate(21px, -189.278px);" data-x="20.99999108564907" data-y="-189.27767666432624" contenteditable="true">This Text is default Paragraph text and you can change it by clicking the edit button from the tool bar</p><table class="table draggable" type="table" style="" contenteditable="true">
+                            <thead contenteditable="true">
+                                <tr contenteditable="true">
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody contenteditable="true">
+                            <tr>
+                                <td class="bd-blue">John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>Mary</td>
+                                <td class="bd-blue">Moe</td>
+                                <td>mary@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>July</td>
+                                <td>Dooley</td>
+                                <td>july@example.com</td>
+                            </tr>
+                            </tbody>
+                        </table>
