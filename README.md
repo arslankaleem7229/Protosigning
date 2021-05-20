@@ -12,7 +12,7 @@
  - Clone `https://github.com/arslankaleem7229/Protosigning.git` to xampp/htdocs folder
  - Start Apache and MySql
  - Import database file in [mysql](http://localhost/phpmyadmin/) 
- - Search localhost/Protosigning in your browser
+ - Search [project](http://localhost/protosigning/) in your browser
 
 
 ## About
