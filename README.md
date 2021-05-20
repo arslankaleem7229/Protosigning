@@ -5,6 +5,16 @@
 
 ![Badges](https://img.shields.io/github/issues/arslankaleem7229/Protosigning)	![Badges](https://img.shields.io/github/forks/arslankaleem7229/Protosigning)	![Badges](https://img.shields.io/github/stars/arslankaleem7229/Protosigning)	![Badges](https://img.shields.io/github/license/arslankaleem7229/Protosigning)
 
+
+## Installation
+
+ - Install & run ![xampp](https://www.apachefriends.org/index.html)
+ - Clone `https://github.com/arslankaleem7229/Protosigning.git` to xampp/htdocs folder
+ - Start Apache and MySql
+ - Import database file in ![mysql](http://localhost/phpmyadmin/) 
+ - Search localhost/Protosigning in your browser
+
+
 ## About
 ProtoSigning is a web-based prototyping tool by which anyone can design UI/UX for web, logos. ProtoSigning gives customization to user by which user can customize already build logos and web interefaces.
 
