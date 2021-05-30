@@ -43,7 +43,7 @@
     "tls": "0.0.1",
     "uuid": "^8.2.0",
     "websocket": "^1.0.31",
-    "ws": "^6.2.1"
+    "ws": "^7.4.6"
   },
   "browser": {
     "./lib/BrowserFetcher.js": false,
